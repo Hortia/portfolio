@@ -18,9 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="header">
-        <img src="./../image/Logobyhortense2.png" alt="logobyhortense">
-    </section>
+    <?php include("./header.php"); ?>
     <section class="slogan">
         <h1>Du Marketing et du Web</h1>
     </section>
@@ -28,7 +26,7 @@
         <ul>
             <li class="container"><img class="image" src="./../image/exempledevweb.png" alt="developpementweb">
             <div class="overlay">
-                <a href="./devweb.html"><div class="text">Développement Web</div></a>
+                <a href="./devweb.php"><div class="text">Développement Web</div></a>
             </div></li>
             <li class="container"><img class="image" src="./../image/exempledevweb.png" alt="developpementweb">
                 <div class="overlay">
