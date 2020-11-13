@@ -58,13 +58,13 @@ table {
 }
 body
 {
-    background-color: black;
+    background-color: white;
 }
 .slogan h1
 {
     text-align: center;
     font-family: 'Avenir',Arial, Helvetica, sans-serif;
-    color: white;
+    color: grey;
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -90,10 +90,50 @@ body
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
-.web
+.presentation li a
 {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.container
+{
+    position: relative;
+    width: 50%;
+}
+.image
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: white;
+}
+.container:hover .overlay
+{
+    opacity: 0.9;
+}
+.text
+{
+    color: gray;
+    font-size: 1.5rem;
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 50%;
 }
 .graphiste
 {
