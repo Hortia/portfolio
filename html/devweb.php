@@ -18,4 +18,19 @@
 </head>
 <body>
     <?php include("./header.php"); ?>
+    <section class="work-menu">
+        <div class="work">
+            <img src="./../image/imageCV.png" alt="CV digital">
+            <a href="https://hortia.github.io/CV/" alt="CV">CV dématérialisés</a>
+        </div> 
+        <div class="work">
+            <img src="./../image/imageCV.png" alt="Site web">
+            <a href="./sitesinternet.php" alt="Site internets">Sites internet</a>
+        </div>
+        <div class="work">
+            <img src="./../image/imageCV.png" alt="Menu dématérialisé">
+            <a href="https://hortia.github.io/cartehavredepaix" alt="Menu dématérialisé">Menus dématérialisés</a>
+        </div>
+    </section>    
+    <?php include("./footer.php"); ?>
 </body>

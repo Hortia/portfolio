@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php include("./header.php"); ?>
+    <?php include "./header.php"; ?>
     <section class="slogan">
         <h1>Du Marketing et du Web</h1>
     </section>
@@ -38,9 +38,6 @@
                     </div></li>
         </ul>
     </section>
-    <section class="footer">
-        <div class="foot1"><h2>Me contacter</h2></div>
-        <div class="foot2"><h2>Legal</h2></div>
-    </section>
+    <?php include("./footer.php"); ?>
 </body>
 </html>
