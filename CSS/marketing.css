@@ -1,0 +1,82 @@
+.services h2
+{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #8C041D;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.presentation
+{
+    display: flex;
+    flex-direction: column;
+}
+.presentation h2
+{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #8C041D;
+}
+#paragraphe
+{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+#paragraphe p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 0.5rem;
+    padding-top: 2rem;
+}
+#paragraphe span
+{
+    font-weight: bold;
+}
+#paragraphe img
+{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services ul
+{
+    display:flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.services li
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #A2CABF;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.services img
+{
+    max-width: 300px;
+}
+.services p
+{
+    max-width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}

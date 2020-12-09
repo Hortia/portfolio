@@ -1,0 +1,31 @@
+.calltoaction
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+    background-color: #A2CABF;
+    border-radius: 10px;
+    margin-bottom: 7rem;
+    margin-top: 2rem;
+}
+.calltoaction a
+{
+    text-decoration: none;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
+    color: #8C041D;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.calltoaction:hover
+{
+    background-color: #8C041D;
+}
+.calltoaction a:hover
+{
+    color: #A2CABF;
+}

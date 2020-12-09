@@ -1,0 +1,137 @@
+#slogan h1
+{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.presentation
+{
+    display: flex;
+    flex-direction: column;
+}
+.presentation h2
+{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #8C041D;
+}
+#paragraphe1
+{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+#paragraphe1 p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 0.5rem;
+    padding-top: 2rem;
+}
+#paragraphe1 span
+{
+    font-weight: bold;
+}
+#paragraphe1 img
+{
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: transform 2s;
+}
+#paragraphe1 img:hover
+{
+    transform: rotate(360deg);
+}
+#methodedetravail h2
+{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #8C041D;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#methodedetravail ul
+{
+    display:flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#methodedetravail li
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#methodedetravail h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #A2CABF;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#methodedetravail p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+#methodedetravail img
+{
+    max-width: auto;
+    margin-bottom: 3rem;
+}
+#nosprojets h2
+{
+    text-align: center;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #8C041D;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#nosprojets li
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+}
+#nosprojets span
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+#nosprojets img
+{
+    max-width: 45%;
+}
+#nosprojets h3
+{
+    margin-bottom: 3rem;
+    font-family: "Avenir", Arial, Helvetica, sans-serif;
+    color: #A2CABF;
+    font-size: 1.8rem;
+}
+#nosprojets p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    word-spacing: 0.5rem;
+    max-width: 600px;
+}
