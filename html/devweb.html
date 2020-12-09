@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=yes"/><!-- trouver attribut content : ici gestion de l'adaptation à l'écran , le content permet une adaptation constante à la largeur de l'écran du device utiliser; le user-scalable=no est pour empecher le zoom--> 
     <link rel="stylesheet" href="./../css/accueil.css" />
     <link rel="stylesheet" href="./../css/header-footer.css" />
+    <link rel="stylesheet" href="./../CSS/developpementweb.css">
+    <link rel="stylesheet" href="./../CSS/calltoaction.css">
     <!--chemin vers feuille CSS-->
     <!--[if lte IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js%22%3E</script>
@@ -13,9 +15,131 @@
     <title>By Hortense</title>
     <meta name="title" content="Développement web By Hortense">
     <meta name="description" content="Découvrez les différents projets de développement web sur lesquels j'ai pu travailler. De la création de CV en ligne, à la création d'un site internet complet, vous retrouverez des projets très différents.">
-    <link rel="short cut icon" type="image/x-icon" href="./../image/iconeH.png">
+    <link rel="short cut icon" type="image/x-icon" href="./../image/logo1sansfondpetit.png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <?php include("./header.php"); ?>
+    <section class="header">
+        <div id="logo">
+            <a href="./index.html" alt="accueil">
+                <img src="./../image/logo1sansfondpetit.png" alt="logobyhortense">
+            </a>
+        </div>
+        <div id="reseaux">
+            <ul>
+                <li>
+                    <a href="./instagram.com" alt="instagram">
+                        <img class="iconheader" src="./../image/iconscouleurs/instagram.png" alt="instalogo">
+                    </a>
+                </li>
+                <li>
+                    <a href="./linkedin.com" alt="linkedin">
+                        <img class="iconheader" src="./../image/iconscouleurs/linkedin.png" alt="linkedinlogo">
+                    </a>
+                </li>
+                <li>
+                    <a href="./pinterest.com" alt="pinsterest">
+                        <img class="iconheader" src="./../image/iconscouleurs/pinterest.png" alt="pinterestlogo">
+                    </a>
+                </li>
+            </ul>
+        </div>        
+    </section>
+    <section class="main">
+        <div id="slogan">
+                    <h1>Développement web</h1>    
+        </div>
+        <div class="presentation">
+            <h2>Qu'est ce que le développement web ?</h2>
+            <div id="paragraphe1">
+                <p>Le développement web est le processus de <span>rédaction d'un site internet ou d'une page internet</span>. La rédaction, ou <span>éveloppement d'un site internet</span> se fait grâce à plusieurs types "codes" appelés langages. On parle de <span> HTML, CSS, Java ou encore PHP</span> (parmi tant d'autres).
+                    En d'autres termes, <span>le développement web est la création d'un site internet</span>.
+                    Il existe différents type de développement (front end, back end, fullstack...). Mais, dans mon cas, je me suis spécialisée dans de développement front end. <span>C'est à dire que ma mission est de créer des sites internet dynamiques, et esthétiques</span>.
+                </p>
+                <img src="./../image/imgcoding.png" alt="questcequeledeveloppementweb">
+            </div>
+        </div>
+        <div id="methodedetravail">
+            <h2>Comment travaillons-nous ?</h2>
+            <ul>
+                <li><img src="./../image/cahierdescharges.png" title="cahierdescharges"alt="creationcahierdescharges">
+                <h3>Mise en place d'un cahier des charges</h3>
+                <p>La première étape des de créer un cahier des charges avec notre client, ou directement d'étudier le cahier des charges déjà mis en place de notre client.</p></li>
+                <li><img src="./../image/maquette.png" title="maquette" alt="creationmaquette">
+                <h3>Création de la maquette</h3>
+                <p>En deuxième lieu nous travaillons sur un maquette, ceci nous permet de visualisé les besoins du client et de mettre sur papier nous idées de structure. Cela nous permet aussi d'avoir une première validation visuelle du client avec lequel nous travaillons.</p></li>
+                <li><img src="./../image/dev.png" title="coding" alt="developpementdusite">
+                <h3>Le coding</h3>
+                <p>L'étape du coding ou encore l'intégration, est très importante. En effet, c'est lors de cette étape que nous passons sur de la technique et que nous intégrons notre maquette sur internetvia les différents langages de développement.</p></li>
+                <li><img src="./../image/seo.png" title="seo" alt="developpementduseo">
+                <h3>Le développement SEO</h3>
+                <p>C'est en général par cette étape que nous finissons notre travail de développement pur. Le développement SEO va travailler sur le référencement future du site internet et nous permet aussi de corriger une dernière fois nos lignes de code afin de nous assurer du bon fonctionnement du site internet.</p></li>
+            </ul>
+        </div>
+        <div class="calltoaction">
+            <a href="devweb.html" title="demanderundevis" alt="pour demander un devis envoyer mail à...">Demander un devis</a>
+        </div>
+    </section>
+    <div id="nosprojets">
+        <h2>Nos réalisations</h2>
+        <ul>
+            <li>
+                <img src="./../image/visuelsprojets/Sites/presentation sitepergola.png" title="template" alt="creation de site depuis des templates">
+                <span>
+                    <h3>Création de votre site internet depuis nos templates</h3>
+                    <p>Nous avons créer plusieurs templates que nous proposons a nos clients cherchant une solution moins couteuse, et plus rapide à mettre en place. Nous adaptins bien entendu nos templates en fonction de la demande et des besoins de nos clients. Je vous invite à prendre connaissance des différents templates que nous proposons. Si vous ne trouvez pas votre bonheur nous faisons aussi du sur-mesure !</p>
+                </span>
+            </li>
+            <li>
+                <span>
+                    <h3>La création de votre site sur sur-mesure</h3>
+                        <p>Nous travaillons avec vous afin de créer un site internet qui vous ressemble et qui corresponde à vos besoins. Contactez-nous pour demander un devis et nous donner dans un premier temps les grandes lignes de vos demandes.</p>
+                    </span>
+                    <img src="./../image/visuelsprojets/Sites/presentationcv.png" title="Site" alt="creation de site sur sur-mesure">
+            </li>
+        </ul>
+    </div>
+    <div class="calltoaction">
+        <a href="devweb.html" title="demanderundevis" alt="pour demander un devis envoyer mail à...">Demander un devis</a>
+    </div>
+    <section class="footer">
+        <div id="liste">
+            <div class="foot1">
+                <h2>Me contacter</h2>
+                <ul>
+                    <li>
+                        <img class="iconscom" src="./../image/iconscouleurs/icontelephone.png" alt="icontelephone">
+                        <a href="telephone:221 77 480 28 73">+221 77 480 28 73</a>
+                    </li>
+                    <li>
+                        <img class="iconscom" src="./../image/iconscouleurs/iconemail.png" alt="iconmail">
+                        <a href="mailto:hortense.devweb@gmail.com">hortense.devweb@gmail.com</a>
+                    </li>
+                    <li>
+                        <img class="iconscom" src="./../image/iconscouleurs/iconlocalisation.png" alt="iconlocalisation">
+                        <p>Somone, Sénégal</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="foot2">
+                <h2>Legal</h2>
+                <ul>
+                    <li>
+                        <a href="./mentionslegales.html" alt="mentions legales portfolio la développeuse">
+                        Mentions légales
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./conditionsgenerales.html" alt="conditions generales portfolio la developpeuse">
+                        Conditions generales
+                        </a>
+                    </li>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; copyright 2020 ladeveloppeuse.com</p>
+        </div>
+    </section>
 </body>
+</html>

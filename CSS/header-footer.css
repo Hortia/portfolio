@@ -53,29 +53,58 @@ table {
 }
 @font-face
 {
-    font-family: 'Courier';
-    src: url(./../webfont/Courier.dfont);
+    font-family: 'Avenir';
+    src: url(./../webfont/Avenir.ttc);
 }
 .header
 {
-    background-color: #005454;
-    justify-content: center;
+    background-color: #8C041D;
+    display: flex;
+    flex-direction: column;
+}
+#logo
+{
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo img
+{
+    max-width: 300px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+#reseaux
+{
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+}
+#reseaux ul
+{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
-.header img
+#reseaux li
 {
-    max-height: 250px;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-left: 1rem;
 }
+.iconheader
+{
+    max-width: 40px;
+}
+
 .footer
 {
+
+    background-color:#8C041D;
+    padding-bottom: 3rem;
+}
+#liste
+{
     display: flex;
     flex-direction: row;
-    background-color:rgb(0, 0, 0,0.4);
-    position: fixed;
-    bottom: 0;
 }
 .foot1
 {
@@ -85,11 +114,10 @@ table {
     margin-left: 5%;
     width: 50%;
     align-items: flex-start;
-    color: #005454;
 }
 .footer h2
 {
-    font-family: 'Courier','Times New Roman', Times, serif;
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -106,4 +134,40 @@ table {
     align-items: flex-end;
     width: 50%;
     color: white;
+}
+.iconscom
+{
+    max-width: 30px;
+    margin-right: 1rem;
+}
+.foot1 li
+{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
+    color: #A2CABF;
+}
+.footer a
+{
+    margin-bottom: 1rem;
+    font-family: 'Avenir',Arial, Helvetica, sans-serif;
+    color: #A2CABF;
+    margin-top: 0.1rem;
+    text-decoration: none;
+}
+.footer a:hover
+{
+    color: black;
+}
+.foot2 li
+{
+    margin-bottom: 1rem;
+}
+#copyright
+{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: #A2CABF;
 }
